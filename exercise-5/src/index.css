@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    box-shadow: #555 0px 2px 3px;
+    
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin: 8px 0;
+}
+.card p {
+    font-size: 1em;
+    color: #555;
+}
+.app {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    
+}
